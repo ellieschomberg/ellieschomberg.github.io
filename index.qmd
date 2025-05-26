@@ -1,11 +1,33 @@
 ---
-title: "ellieschomberg.github.io"
+title: "Ellie Schomberg"
+image: media/websitecover.JPG
+toc: false
+about:
+  template: trestles
+  image-shape: rectangle
+  image-width: 23em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/ellieschomberg/
+    - text: GitHub
+      href: https://github.com/ellieschomberg 
+    - text: Email
+      href: mailto::eschomberg@ucsb.edu
 ---
 
-This is a Quarto website.
+My name is Ellie Schomberg and I am a 3rd year pursuing Environmental Studies (B.S.) at UCSB. I am specializing in Marine Conservation, and hope to work on protecting coral reefs in the future. I am also a Division 1 Athlete on the Women's Swim team! In my free time, I love to swim, go to the beach, and do yoga!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+## Education
+
+University of California, Santa Barbara | Santa Barbara, CA
+B.S in Environmental Studies | Sept 2022 - June 2026
+
+Willow Glen High School
+Aug 2018 - June 2022
+
+## Experience
+
+Santa Barbara Coastal LTER | Undergraduate Research Assistant | August 2024 - Present
+
+UCSB Associated Students Zero Waste Committee | Athletics Coordinator | May 2024 - Present

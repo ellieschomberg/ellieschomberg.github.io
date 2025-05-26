@@ -3,18 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "ellieschomberg.github.io"
+  title: "Ellie Schomberg"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - projects.qmd
+      - diveintosustainability.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 
