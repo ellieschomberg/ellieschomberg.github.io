@@ -5,12 +5,15 @@ project:
 website:
   title: "Ellie Schomberg"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - projects.qmd
       - diveintosustainability.qmd
+      - href: media/Resume-Ellie Schomberg (2).pdf
+        text: Resume
+        target: _blank
 
 format:
   html:

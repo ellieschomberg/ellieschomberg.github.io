@@ -7,11 +7,14 @@ about:
   image-shape: rectangle
   image-width: 23em
   links:
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/ellieschomberg/
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/ellieschomberg 
-    - text: Email
+    - icon: envelope
+      text: Email
       href: mailto::eschomberg@ucsb.edu
 ---
 
