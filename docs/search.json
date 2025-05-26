@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ellie Schomberg",
@@ -18,7 +11,7 @@
     "href": "index.html#education",
     "title": "Ellie Schomberg",
     "section": "Education",
-    "text": "Education\nUniversity of California, Santa Barbara | Santa Barbara, CA B.S in Environmental Studies | Sept 2022 - June 2026\nWillow Glen High School Aug 2018 - June 2022"
+    "text": "Education\nUniversity of California, Santa Barbara | Santa Barbara, CA B.S in Environmental Studies | Sept 2022 - June 2026\nWillow Glen High School | Aug 2018 - June 2022"
   },
   {
     "objectID": "index.html#experience",
@@ -26,5 +19,12 @@
     "title": "Ellie Schomberg",
     "section": "Experience",
     "text": "Experience\nSanta Barbara Coastal LTER | Undergraduate Research Assistant | August 2024 - Present\nUCSB Associated Students Zero Waste Committee | Athletics Coordinator | May 2024 - Present"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
