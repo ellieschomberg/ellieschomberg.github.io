@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ellie Schomberg",
-    "section": "",
-    "text": "My name is Ellie Schomberg and I am a 3rd year pursuing Environmental Studies (B.S.) at UCSB. I am specializing in Marine Conservation, and hope to work on protecting coral reefs in the future. I am also a Division 1 Athlete on the Women’s Swim team! In my free time, I love to swim, go to the beach, and do yoga!"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Ellie Schomberg",
-    "section": "Education",
-    "text": "Education\nUniversity of California, Santa Barbara | Santa Barbara, CA B.S in Environmental Studies | Sept 2022 - June 2026\nWillow Glen High School | Aug 2018 - June 2022"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Ellie Schomberg",
-    "section": "Experience",
-    "text": "Experience\nSanta Barbara Coastal LTER | Undergraduate Research Assistant | August 2024 - Present\nUCSB Associated Students Zero Waste Committee | Athletics Coordinator | May 2024 - Present"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me!",
@@ -47,5 +26,40 @@
     "title": "About Me!",
     "section": "Associated Students Zero Waste Committee",
     "text": "Associated Students Zero Waste Committee\nI am on the Associated Students Zero Waste Committee, and serve as one of the Athletics Coordinators. My job is to serve as a liason between UCSB’s student government and the Intercolligate Athletics Department to help promote sustainability initiatives. One of my main responsibilites is coordinating and managing a school-wide shoe recycling drive, and a sports waste recycling project that I created, called Dive Into Sustainability."
+  },
+  {
+    "objectID": "posts/sbclter_post/index.html",
+    "href": "posts/sbclter_post/index.html",
+    "title": "Santa Barbara Coastal Long Term Ecological Research Project",
+    "section": "",
+    "text": "I am an intern in the SBC LTER lab. My job is to help collect and analyze data on multiple research projects examining the long term effects of human activies on kelp forest ecosystems. I have worked on both Urchin Settlement and Benthic Competition Experiments, where I rinse and prepare brushes for deployment, split samples, and identify and sort microscopic invertebrates. I have also programmed and downloaded data from both light and temperature sensors, as well as use R studio, Excel, and Google Sheets to manage and anaylze data for all ongoing research projects.\n\n\n\nCitationBibTeX citation:@online{schomberg2025,\n  author = {Schomberg, Ellie},\n  title = {Santa {Barbara} {Coastal} {Long} {Term} {Ecological}\n    {Research} {Project}},\n  date = {2025-05-31},\n  url = {https://ellieschomberg.github.io/posts/sbclter_post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchomberg, Ellie. 2025. “Santa Barbara Coastal Long Term\nEcological Research Project.” May 31, 2025. https://ellieschomberg.github.io/posts/sbclter_post/."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ellie Schomberg",
+    "section": "",
+    "text": "My name is Ellie Schomberg and I am a 3rd year pursuing Environmental Studies (B.S.) at UCSB. I am specializing in Marine Conservation, and hope to work on protecting coral reefs in the future. I am also a Division 1 Athlete on the Women’s Swim team! In my free time, I love to swim, go to the beach, and do yoga!"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Ellie Schomberg",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Santa Barbara | Santa Barbara, CA B.S in Environmental Studies | Sept 2022 - June 2026\nWillow Glen High School | Aug 2018 - June 2022"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Ellie Schomberg",
+    "section": "Experience",
+    "text": "Experience\nSanta Barbara Coastal LTER | Undergraduate Research Assistant | August 2024 - Present\nUCSB Associated Students Zero Waste Committee | Athletics Coordinator | May 2024 - Present"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Santa Barbara Coastal Long Term Ecological Research Project\n\n\n\nResearch\n\nAssisting On\n\n\n\nUndergraduate Research Assitant\n\n\n\nEllie Schomberg\n\n\nMay 31, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]

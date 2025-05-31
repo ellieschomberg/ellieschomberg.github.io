@@ -1,0 +1,16 @@
+---
+title: "Santa Barbara Coastal Long Term Ecological Research Project"
+description: "Undergraduate Research Assitant"
+author:
+  - name: Ellie Schomberg
+    url: https://ellieschomberg.github.io/
+date: 05-31-2025
+categories: [Research, Assisting On] # categories for post
+citation: 
+  url: https://ellieschomberg.github.io/posts/sbclter_post/ 
+image: ExtraKelp-scaled.jpg
+draft: false 
+format: html
+---
+
+I am an intern in the SBC LTER lab. My job is to help collect and analyze data on multiple research projects examining the long term effects of human activies on kelp forest ecosystems. I have worked on both Urchin Settlement and Benthic Competition Experiments, where I rinse and prepare brushes for deployment, split samples, and identify and sort microscopic invertebrates. I have also programmed and downloaded data from both light and temperature sensors, as well as use R studio, Excel, and Google Sheets to manage and anaylze data for all ongoing research projects.

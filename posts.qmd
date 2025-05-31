@@ -1,0 +1,10 @@
+---
+title: "Projects"
+listing: 
+  contents: posts # where the post content is coming from
+  type: grid # setting posts to appear as a grid
+  sort: "date desc" # can also sort on more than one field
+  categories: true # allows you to sort posts by assigned categories 
+format: html
+---
+

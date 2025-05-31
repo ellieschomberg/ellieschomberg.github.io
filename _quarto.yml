@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - projects.qmd
+      - posts.qmd
       - diveintosustainability.qmd
       - href: media/Resume-Ellie Schomberg (2).pdf
         text: Resume
