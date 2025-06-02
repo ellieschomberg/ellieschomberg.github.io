@@ -2,24 +2,17 @@
 title: "About Me!"
 ---
 
+![](media/IMG_2285.JPG){width=600}
+
 ## Swimming
 
 I have been swimming competitively since I was 9 years old, and am currently on UCSB's swim team! I am a distance freestyler, and my favorite events are the 200 Free, 500 Free, and the 1650 Free. Check out the map below to see all of locations around the nation where I have competed in college!
-
-![](media/IMG_2285.JPG){width=400}
 
 ## Marine Conservation
 
 I am an Environmental Studies major, emphasizing in marine conservation! I currently work as an intern for the Santa Barbara Coastal LTER lab, and assist in studying the long term effects of human activities on kelp forest ecosystems. After graduating from UCSB, I plan to go to grad school and pursue a masters in Climate/Marine Science, or a similar area of study. In the future, I would love to do work on coral reef and other marine ecosystem restoration.
 
-::: {.gallery}
-![Me!](media/IMG_5529.JPG){group="my-gallery" width=200}
-![Leather Star!](media/IMG_2623.JPG){group="my-gallery" width=200}
-![Sample!](media/IMG_5523.JPG){group="my-gallery" width=200}
-:::
-
 ## Associated Students Zero Waste Committee
 
 I am on the Associated Students Zero Waste Committee, and serve as one of the Athletics Coordinators. My job is to serve as a liason between UCSB's student government and the Intercolligate Athletics Department to help promote sustainability initiatives. One of my main responsibilites is coordinating and managing a school-wide shoe recycling drive, and a sports waste recycling project that I created, called Dive Into Sustainability. 
 
-![](media/IMG_2173.JPG){width=300}

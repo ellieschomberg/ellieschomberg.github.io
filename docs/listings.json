@@ -2,6 +2,8 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/mpa_map_post/index.html",
+      "/posts/personal_data_post/index.html",
       "/posts/sbclter_post/index.html"
     ]
   }

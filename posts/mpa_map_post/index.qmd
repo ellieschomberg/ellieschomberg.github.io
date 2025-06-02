@@ -1,0 +1,18 @@
+---
+title: "Map of Marine Protected Areas in the Southern California Bight"
+description: "Hand Drawn Map for ENVS 111- Channel Islands." 
+author: 
+  - name: Ellie Schomberg
+    url: https://ellieschomberg.github.io/
+date: 06-01-2025
+categories: [Coursework]
+citation: 
+  url: https://ellieschomberg.github.io/posts/mpa_map_post/ 
+image: Inspiration+Point.jpg
+draft: false 
+format: html
+---
+
+For my Channel Islands class I took in Winter 2025, I created a hand drawn map that shows all of the different MPAs, organized by type, in the Southern California Bight Region.
+
+![](Assignment%204.jpg)
