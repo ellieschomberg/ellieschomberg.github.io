@@ -2,7 +2,12 @@
 title: "About Me!"
 ---
 
-![](media/IMG_2285.JPG){width=600}
+![](media/IMG_2285.JPG){width=400}
+
+::: gallery
+![](media/IMG_2173.JPG){group="my-gallery" width="200"} 
+![](media/Junior Group_Swim Media 2025_0031.JPG){group="my-gallery" width="200"}
+:::
 
 ## Swimming
 
