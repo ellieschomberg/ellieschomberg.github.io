@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About Me!"
 ---
 
 ![](media/IMG_2285.JPG){width="400"} ![](media/IMG_1171.JPG "My dog Cash!"){group="my-gallery" width="200"} ![](media/IMG_0387.JPG "My cat Cheeto!"){group="my-gallery" width="200"}
