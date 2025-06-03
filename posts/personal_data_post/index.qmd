@@ -13,7 +13,7 @@ draft: false
 format: html
 ---
 
-This project analyses how different categories of swimming workouts influence my average sleep duration, using personal data collected over the Spring 2025 quarter.
+This project analyses how different categories of swimming workouts influence my average sleep duration, using personal data collected over the Spring 2025 quarter. I decided to do this research because I was interested in seeing if the different categories, each with varying levels of yardage and intensity led me to sleep longer. Although other variables were not included in this visualization, I also recorded data on the duration of each individual workout, the exact yardage, the number of classes I had that day, and whether or not it was a day where I had a practice doubled with a weightlift.
 
 # Set Up
 
