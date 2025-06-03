@@ -10,9 +10,11 @@ title: "About Me!"
 
 ## Swimming
 
-I have been swimming competitively since I was 9 years old, and am currently on UCSB's swim team! I am a distance freestyler, and my favorite events are the 200 Free, 500 Free, and the 1650 Free. Check out the map below to see all of locations around the nation where I have competed in college!
+I have been swimming competitively since I was 9 years old, and am currently on UCSB's swim team! I am a distance freestyler, and my favorite events are the 200 Free, 500 Free, and the 1650 Free. Check out the map below to see all of locations around the nation where I have competed as a Gaucho!
 
 ```{r set up}
+#| echo: false
+#| message: false
 library(tidyverse)
 library(leaflet)
 library(leaflet.extras)
@@ -24,6 +26,7 @@ pools <- read.csv(here("media", "coords.csv"))
 ```
 
 ```{r clean data}
+#| echo: false
 pools_clean <- pools |> 
   clean_names() |> 
   mutate(site = case_when(
@@ -47,6 +50,7 @@ pools_clean <- pools |>
 ```
 
 ```{r icon}
+#| echo: false
 gaucho_icon <- makeIcon(
   iconUrl = here::here("media", "gaucho.png"),
   iconWidth = 30, iconHeight = 25
@@ -54,13 +58,14 @@ gaucho_icon <- makeIcon(
 ```
 
 ```{r}
+#| echo: false
 pools_map <- leaflet() %>%
   addProviderTiles(providers$Esri.WorldImagery) %>%
   setView(lng = -98.5795, lat = 39.8283,  zoom = 3) %>%
   addMarkers(data = pools_clean, group = "site",
              icon = gaucho_icon,
              lng = ~longitude, lat = ~latitude,
-             popup = ~paste("College Campus", site, "<br>", "Coordinates (lat/long):", latitude, ",", longitude))
+             popup = ~paste("College Campus:", site, "<br>", "Coordinates (lat/long):", latitude, ",", longitude))
 
 pools_map
   
