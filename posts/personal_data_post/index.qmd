@@ -85,7 +85,7 @@ ggplot(data = personal_data_clean, # starting with personal_data_clean data fram
 
 ```
 
-**Figure 1. Type of swimming workout completed compared to average sleep.** Points represent observations of individual nights of sleep after completing a specific type of swimming workout (total n = 31). Colors represent the different types of workouts (Dark blue = Aerobic, Magenta = 200 Free, Teal = 500 Free, Light blue = 1650 Free, Green = Racing). Bold points represent the mean amount of sleep in hours for each type of workout, and the bars represent the standard error around the mean.
+**Figure 1. Type of swimming workout completed compared to average sleep duration.** Points represent observations of individual nights of sleep after completing a specific type of swimming workout (total n = 31). Colors represent the different types of workouts (Dark blue = Aerobic, Magenta = 200 Free, Teal = 500 Free, Light blue = 1650 Free, Green = Racing). Bold points represent the mean amount of sleep in hours for each type of workout, and the bars represent the standard error around the mean.
 
 # Table
 
