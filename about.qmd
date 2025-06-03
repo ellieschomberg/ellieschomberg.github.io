@@ -10,7 +10,7 @@ title: "About Me!"
 
 ## Swimming
 
-I have been swimming competitively since I was 9 years old, and am currently on UCSB's swim team! I am a distance freestyler, and my favorite events are the 200 Free, 500 Free, and the 1650 Free. Check out the map below to see all of locations around the nation where I have competed as a Gaucho!
+I have been swimming competitively since I was 9 years old, and am currently on UCSB's swim team. I am a distance freestyler, and my favorite events are the 200 Free, 500 Free, and the 1650 Free. Check out the map below to see all of locations around the nation where I have competed as a Gaucho.
 
 ```{r set up}
 #| echo: false
@@ -78,4 +78,4 @@ I am an Environmental Studies major, emphasizing in marine conservation! I curre
 
 ## Associated Students Zero Waste Committee
 
-I am on the Associated Students Zero Waste Committee, and serve as one of the Athletics Coordinators. My job is to serve as a liason between UCSB's student government and the Intercolligate Athletics Department to help promote sustainability initiatives. One of my main responsibilites is coordinating and managing a school-wide shoe recycling drive, and a sports waste recycling project that I created, called Dive Into Sustainability.
+I currently work as one of the Athletics Coordinators for UCSB's Associated Students Zero Waste Committee. My job is to serve as a liason between UCSB's student government and the Intercolligate Athletics Department to help promote sustainability initiatives. One of my main responsibilites is coordinating and managing a school-wide shoe recycling drive, and a sports waste recycling project that I created, called Dive Into Sustainability.

@@ -13,7 +13,7 @@ draft: false
 format: html
 ---
 
-I work as an intern in the SBC LTER lab. My job is to help collect and analyze data on multiple research projects examining the long term effects of human activies on kelp forest ecosystems. I have worked on both Urchin Settlement and Benthic Competition Experiments, where I rinse and prepare brushes for deployment, split samples, and identify and sort microscopic invertebrates. I also program and download data from both light and temperature sensors, as well as use R studio, Excel, and Google Sheets to manage and anaylze data for all ongoing research projects.
+I work as an intern in the SBC LTER lab, assisting in data collection and analysis for various research projects that examine the long-term effects of human activities on kelp forest ecosystems. I have contributed to both Urchin Settlement and Benthic Competition Experiments, involving tasks such as rinsing and preparing brushes for deployment, splitting samples, and identifying and sorting microscopic invertebrates. Additionally, I program and download data from light and temperature sensors, and utilize RStudio, Excel, and Google Sheets to manage and analyze data for ongoing research projects.
 
 ::: gallery
 ![Me!](IMG_5529.JPG){group="my-gallery" width="200"} ![Leather Star!](IMG_2623.JPG){group="my-gallery" width="200"} ![Sample!](IMG_5523.JPG){group="my-gallery" width="200"}

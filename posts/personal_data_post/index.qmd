@@ -1,6 +1,6 @@
 ---
 title: "Personal Data Collection"
-description: "Results and code from my personal data collection project for ENVS 193DS." 
+description: "Results and code from my personal data collection project for ENVS 193DS" 
 author: 
   - name: Ellie Schomberg
     url: https://ellieschomberg.github.io/
@@ -13,9 +13,10 @@ draft: false
 format: html
 ---
 
-Below is some of the code used in my personal data visualization, which involved comparing how the different categories of swimming workouts I do affect the average amount of hours of sleep I get.
+This project analyses how different categories of swimming workouts influence my average sleep duration, using personal data collected over the Spring 2025 quarter.
 
 # Set Up
+
 ```{r}
 #| message: FALSE
 # reading in packages
@@ -29,6 +30,7 @@ personal_data <- read.csv(here("posts", "personal_data_post", "personal_data_fin
 ```
 
 # Cleaning and Summarizing Data
+
 ```{r}
 personal_data_clean <- read.csv(here("posts", "personal_data_post", "personal_data_final.csv")) |> # start with original data
   clean_names() # clean up the column names
@@ -49,6 +51,7 @@ personal_data_summary <- personal_data_clean |> # start with personal_data_clean
 ```
 
 # Data Visualization
+
 ```{r}
 ggplot(data = personal_data_clean, # starting with personal_data_clean data frame
        aes(x = type_of_workout, # x axis is type of workout
@@ -82,10 +85,10 @@ ggplot(data = personal_data_clean, # starting with personal_data_clean data fram
 
 ```
 
-**Figure 1. Type of swimming workout completed compared to average sleep.**
-Points represent observations of individual nights of sleep after completing a specific type of swimming workout (total n = 31). Colors represent the different types of workouts (Dark blue = Aerobic, Magenta = 200 Free, Teal = 500 Free, Light blue = 1650 Free, Green = Racing). Bold points represent the mean amount of sleep in hours for each type of workout, and the bars represent the standard error around the mean.
+**Figure 1. Type of swimming workout completed compared to average sleep.** Points represent observations of individual nights of sleep after completing a specific type of swimming workout (total n = 31). Colors represent the different types of workouts (Dark blue = Aerobic, Magenta = 200 Free, Teal = 500 Free, Light blue = 1650 Free, Green = Racing). Bold points represent the mean amount of sleep in hours for each type of workout, and the bars represent the standard error around the mean.
 
 # Table
+
 ```{r}
 table_input <- head(personal_data_summary) %>% # creating table input using data summary
   select(type_of_workout, mean, sd, se, ci_lower, ci_upper) %>% # selecting the columns of interest
@@ -109,5 +112,5 @@ ft <- flextable(table_input) %>% # creating the table using input
   border_inner() # adding inner borders to the table
 ft
 ```
-Table 1. Summary of Personal Data
 
+Table 1. Summary of Personal Data
