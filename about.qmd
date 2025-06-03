@@ -2,16 +2,70 @@
 title: "About Me!"
 ---
 
-![](media/IMG_2285.JPG){width=400}
+![](media/IMG_2285.JPG){width="400"}
 
 ::: gallery
-![](media/IMG_2173.JPG){group="my-gallery" width="200"} 
-![](media/Junior Group_Swim Media 2025_0031.JPG){group="my-gallery" width="200"}
+![](media/IMG_2173.JPG){group="my-gallery" width="200"} ![](media/Junior%20Group_Swim%20Media%202025_0031.JPG){group="my-gallery" width="200"}
 :::
 
 ## Swimming
 
 I have been swimming competitively since I was 9 years old, and am currently on UCSB's swim team! I am a distance freestyler, and my favorite events are the 200 Free, 500 Free, and the 1650 Free. Check out the map below to see all of locations around the nation where I have competed in college!
+
+```{r set up}
+library(tidyverse)
+library(leaflet)
+library(leaflet.extras)
+library(here)
+library(janitor)
+
+# reading in data ----
+pools <- read.csv(here("media", "coords.csv"))
+```
+
+```{r clean data}
+pools_clean <- pools |> 
+  clean_names() |> 
+  mutate(site = case_when(
+    site == "UCSB" ~ "University of California, Santa Barbara",
+    site == "Cal Poly" ~ "California Polytechnic University, San Luis Obispo",
+    site == "CSUB" ~ "California State University, Bakersfield",
+    site == "UCLA" ~ "University of California, Los Angeles",
+    site == "Pepperdine" ~ "Pepperdine University",
+    site == "Utah Tech" ~ "Utah Tech University",
+    site == "CBU" ~ "California Baptist University",
+    site == "UCD" ~ "University of California, Davis",
+    site == "UOP" ~ "University of the Pacific",
+    site == "UNLV" ~ "University of Nevada, Las Vegas",
+    site == "USC" ~ "University of Southern California",
+    site == "SJSU" ~ "San Jose State University",
+    site == "Akron" ~ "University of Akron",
+    site == "BYU" ~ "Bringham Young University",
+    site == "Utah" ~ "University of Utah",
+    site == "Houston" ~ "University of Houston"
+  ))
+```
+
+```{r icon}
+gaucho_icon <- makeIcon(
+  iconUrl = here::here("media", "gaucho.png"),
+  iconWidth = 30, iconHeight = 25
+)
+```
+
+```{r}
+pools_map <- leaflet() %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  setView(lng = -98.5795, lat = 39.8283,  zoom = 3) %>%
+  addMarkers(data = pools_clean, group = "site",
+             icon = gaucho_icon,
+             lng = ~longitude, lat = ~latitude,
+             popup = ~paste("College Campus", site, "<br>", "Coordinates (lat/long):", latitude, ",", longitude))
+
+pools_map
+  
+```
+
 
 ## Marine Conservation
 
@@ -19,5 +73,4 @@ I am an Environmental Studies major, emphasizing in marine conservation! I curre
 
 ## Associated Students Zero Waste Committee
 
-I am on the Associated Students Zero Waste Committee, and serve as one of the Athletics Coordinators. My job is to serve as a liason between UCSB's student government and the Intercolligate Athletics Department to help promote sustainability initiatives. One of my main responsibilites is coordinating and managing a school-wide shoe recycling drive, and a sports waste recycling project that I created, called Dive Into Sustainability. 
-
+I am on the Associated Students Zero Waste Committee, and serve as one of the Athletics Coordinators. My job is to serve as a liason between UCSB's student government and the Intercolligate Athletics Department to help promote sustainability initiatives. One of my main responsibilites is coordinating and managing a school-wide shoe recycling drive, and a sports waste recycling project that I created, called Dive Into Sustainability.
